@@ -35,7 +35,6 @@ import org.whispersystems.libsignal.util.KeyHelper;
 
 import com.fasterxml.classmate.util.ResolvedTypeCache.Key;
 
-import signal.MyIdentityStore;
 import signal.client.service.ClientKeyService;
 import signal.client.service.CommunicationService;
 import signal.entities.MessageModel;
