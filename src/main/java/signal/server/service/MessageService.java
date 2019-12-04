@@ -9,7 +9,7 @@ import javax.persistence.EntityManager;
 import signal.entities.MessageModel;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja upisuje i iscitava poruke za datog korisnika u bazu
  */
 @Stateless
@@ -22,7 +22,7 @@ public class MessageService {
 //	private Logger logger;
 	
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod cita sve neprocitane poruke za datog korisnika
 	 */
 	public List<MessageModel> getMessages(String userId){
@@ -34,7 +34,7 @@ public class MessageService {
 		return messages;
 	}
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Cuvanje prosledjene poruke u bazu
 	 */
 	public MessageModel setMessage(MessageModel message) {

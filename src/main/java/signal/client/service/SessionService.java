@@ -13,7 +13,7 @@ import org.whispersystems.libsignal.state.SessionRecord;
 import signal.client.entities.SessionEntity;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja ucitava/upisuje sesiju u bazu
  */
 public class SessionService {
@@ -29,7 +29,7 @@ public class SessionService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod za skaldistenje sesije u bazi
 	 */
 	public void storeSession(SignalProtocolAddress address, SessionRecord record) {
@@ -47,7 +47,7 @@ public class SessionService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod za iscitavanje sesije iz baze
 	 */
 	public SessionEntity getSession(SignalProtocolAddress address) {

@@ -15,7 +15,7 @@ import signal.model.RestResponse;
 import signal.rest.AddressService;
 
 /**
- * @author goran
+ * @author Radoje
  * REST za rad sa  adresama klijenata
  */ 
 @Stateless
@@ -28,7 +28,7 @@ public class AddressServiceImpl implements AddressService {
 	private Logger logger;
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * REST endpoint koja vraca punu adresu korisnika za dati korisnicki id
 	 */
 	@Override
@@ -41,7 +41,7 @@ public class AddressServiceImpl implements AddressService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Rest endpoint na kojem korisnici registruju svoju adresu na serveru
 	 */
 	@Override

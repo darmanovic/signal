@@ -1,7 +1,7 @@
 package signal.model;
 
 /**
- * @author goran
+ * @author Radoje
  * Data klasa koja modelira set kljuceva koje korisnik dobavlja sa servera prije slanja prve poruke drugom korisniku
  */
 public class FirstMessageKeyBundle {

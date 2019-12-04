@@ -20,7 +20,7 @@ import signal.server.exception.UserExistsException;
 
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja upisuje/cita kljuceve iz baze.
  */
 @Stateless
@@ -33,7 +33,7 @@ public class KeyService {
 	private Logger logger;
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 *	Metod upisuje poslati set kljuceva u bazu
 	 */
 	public void saveKeyBundle(RegisterUserKeyBundle userKeys) throws UserExistsException {
@@ -62,7 +62,7 @@ public class KeyService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod cita set kljuceva za korisnika iz baze na osnovu userId
 	 */
 	public FirstMessageKeyBundle getUserKeyBundle(String userId) {
@@ -92,7 +92,7 @@ public class KeyService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Pomocni metod, pretvara niz bajtova u base64 string.
 	 */
 	public static String encode(byte[] bytes) {

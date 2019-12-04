@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja modelira tabletu u bazi za upis identitetskog kljuca
  */
 @Entity

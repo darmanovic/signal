@@ -17,7 +17,7 @@ import signal.rest.MessagesRest;
 import signal.server.service.MessageService;
 
 /**
- * @author goran
+ * @author Radoje
  * REST endpoint za slanje i primanje poruka od klijenata
  */
 public class MessagesRestImpl implements MessagesRest {
@@ -33,7 +33,7 @@ public class MessagesRestImpl implements MessagesRest {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * REST endpoint koji vraca listu neprocitanih poruka
 	 */
 	public Response getMessages(@PathParam("userId") String userId) {
@@ -50,7 +50,7 @@ public class MessagesRestImpl implements MessagesRest {
 	}
 	
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Endpoint na koji klijenti salju poruke koje zele poslati drugom korisniku
 	 */
 	public Response setMessage(String rawMessage) {

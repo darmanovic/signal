@@ -41,7 +41,7 @@ import signal.entities.MessageModel;
 import signal.server.service.KeyService;
 
 /**
- * @author goran
+ * @author Radoje
  * Centralna klasa bota!
  */
 @Singleton

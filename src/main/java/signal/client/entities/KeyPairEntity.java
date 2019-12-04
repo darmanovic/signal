@@ -15,7 +15,7 @@ import org.whispersystems.libsignal.SignalProtocolAddress;
 import signal.util.KeyType;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja modeluje par kljuceva u bazi bota
  */
 @Entity

@@ -13,7 +13,7 @@ import signal.client.entities.KeyPairEntity;
 import signal.util.KeyType;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja vrsi upis kljuceva ili cita kljuceve iz baze bota
  */
 @Stateless

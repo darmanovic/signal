@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja modelira potpisani pred kljuc u bazi
  */
 @Entity

@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja modelira korisnicku adresu u bazi
  */
 @Entity

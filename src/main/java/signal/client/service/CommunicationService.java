@@ -35,7 +35,7 @@ import signal.rest.MessagesRest;
 import signal.server.service.KeyService;
 
 /**
- * @author goran
+ * @author Radoje
  * Servis za komunikaciju sa serverom
  */
 @Stateless
@@ -49,7 +49,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Kreiranje resteasy targeta
 	 */
 	private ResteasyWebTarget clientBuilder() {
@@ -59,7 +59,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod za slanje kljuceva na server
 	 */
 	public void sendKeys(SignalProtocolAddress address, int registrationId, IdentityKey identityKey, SignedPreKeyRecord signedPreKey,
@@ -87,7 +87,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod za dobavljanje kljuceva sa servera
 	 */
 	public PreKeyBundle getKeys(String userId) {
@@ -123,7 +123,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod za dobavljanje korisnicke adrese sa servera
 	 */
 	public SignalProtocolAddress getUserAddress(String userId) {
@@ -140,7 +140,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Cuvanje korisnicke adrese na serveru
 	 */
 	public void saveAddress(SignalProtocolAddress address) {
@@ -158,7 +158,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Dobavljanje novih poruka sa servera
 	 */
 	public List<MessageModel> getNewMessages(String userId) {
@@ -172,7 +172,7 @@ public class CommunicationService {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Slanje poruka na server
 	 */
 	public void sendMessage(String message, String receiverName, boolean preKeyMessage, SignalProtocolAddress address) {

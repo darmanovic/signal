@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja modelira poruku u bazi
  */
 @Entity

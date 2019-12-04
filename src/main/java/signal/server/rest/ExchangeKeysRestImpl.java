@@ -17,7 +17,7 @@ import signal.server.exception.UserExistsException;
 import signal.server.service.KeyService;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa zdje klijenti salju i zahtjevaju kljuceve sa servera
  */
 public class ExchangeKeysRestImpl implements ExchangeKeysRest {
@@ -33,7 +33,7 @@ public class ExchangeKeysRestImpl implements ExchangeKeysRest {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod koji vraca set kljuceva za datog korisnika
 	 */
 	public Response getKeys(@PathParam("userId") String userId) {
@@ -43,7 +43,7 @@ public class ExchangeKeysRestImpl implements ExchangeKeysRest {
 	}
 
 	/**
-	 * @author goran
+	 * @author Radoje
 	 * Metod koji postavlja kljuceve korisnika, enkodovane u base64 string!
 	 */
 	public Response setkeys(String userKeys) {

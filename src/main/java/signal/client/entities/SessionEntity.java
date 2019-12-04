@@ -6,7 +6,7 @@ import javax.persistence.*;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 
 /**
- * @author goran
+ * @author Radoje
  * Klasa koja modeluje trenutno stanje sesije u bazi bota
  */
 @Entity

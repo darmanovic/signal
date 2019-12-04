@@ -3,7 +3,7 @@ package signal.model;
 import java.util.Map;
 
 /**
- * @author goran
+ * @author Radoje
  * Data klasa koja modelira kljuceve koji se dodaju na server prilikom registracije
  */
 public class RegisterUserKeyBundle {
