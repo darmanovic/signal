@@ -39,6 +39,7 @@ import signal.client.service.ClientKeyService;
 import signal.client.service.CommunicationService;
 import signal.entities.MessageModel;
 import signal.server.service.KeyService;
+import signal.util.Grad;
 
 /**
  * @author Radoje
@@ -126,7 +127,13 @@ public class SignalClient implements Serializable {
 				}
 
 				logger.infof("DEKRIPTOVANA PORUKA: %s", decryptedMessage);
-				slanjePoruke(decryptedMessage);
+				String grad = Grad.akoJe(decryptedMessage);
+				if(grad != null) {
+					slanjePoruke(String.format("Temperatura za grad %s je: \n %d stepeni!", grad, (int) Math.floor(Math.random() * 30)));
+				} else {
+					slanjePoruke("Ne postoji taj grad!");
+				}
+				//slanjePoruke(decryptedMessage);
 			} catch (InvalidMessageException e) {
 				e.printStackTrace();
 			} catch (InvalidVersionException e) {
