@@ -58,7 +58,7 @@
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-client</artifactId>
 			<scope>provided</scope>
-			<version>3.0.26.Final</version>
+			<version>4.5.7.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
